@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Тести HTML и CSS.</title>
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/downloadSite.js"></script>
+<script type="text/javascript" src="js/myButton.js"></script>
+<script type="text/javascript" src="js/myTest.js"></script>
+</head>
+<body class="classBody">
+<!--Мельниченко Є.О.-->
+	<header>
+	<h1 class="classH">Тест по элементарным основам HTML и CSS</h1>
+	<h1 class="welcome">Выберите фон сайта который вам больше нравится</h1>
+	<button id="idButWhite" class="but_white" style="float: left;">Белый фон</button>
+	<button id="idButBlack" class="but_black" style="float: right;">Чорный фон</button>
+	<button id="idButWhiteMini" class="but_whiteMini" style="float: left;">Белый фон</button>
+	<button id="idButBlackMini" class="but_blackMini" style="float: right;">Чорный фон</button>
+	</header>
+
+<div class="mainPage"">
+
+<div class="allButtons" >
+<center>
+<button id="ButTestText">Начать тесты</button>
+<button id="ButThirteen" class="TestThirteen">Открыть тест 13</button>
+<button id="ButFourteen" class="TestFourteen">Открыть тест 14</button>
+<button id="ButFifteen" class="TestFifteen">Открыть тест 15</button>
+<button id="result" class="classResult">Результат тестов</button>
+</center>
+</div>
+<table id="tableIdText" class="tableClassText">
+<tr>
+<td>
+<!--One--><form id="testOne">
+		<p class="classP">HTML - это аббревиатура от?</p>
+		<input type="radio" name="gender" class="falseOneA">Hyperlinks and Text Markup Language<br>
+		<input type="radio" name="gender" class="falseOneB">Home Tool Markup Language<br>
+		<input type="radio" name="gender" class="trueOne">Hyper Text Markup Language<br>
+		<div class="answerOne">Выберите правильный ответ</div>
+	</form>
+</td>
+<td>
+<!--Two--><form id="testTwo">
+		<p class="classP">HTML - это?</p>
+		<input type="radio" name="gender" class="falseTwoA"> Язык программирования <br>
+		<input type="radio" name="gender" class="trueTwo"> Язык гипертекстовой разметки <br>
+		<input type="radio" name="gender" class="falseTwoB"> Каскадная таблица стилей <br>
+		<div class="answerTwo">Выберите правильный ответ</div>
+	</form>
+</td>
+<td>
+<!--Three--><form id="testThree">
+		<p class="classP">HTML тег для переноса на новую строку?</p>
+		<input type="radio" name="gender" class="trueThree"> < br ><br>
+		<input type="radio" name="gender" class="falseThreeA"> < break > <br>
+		<input type="radio" name="gender" class="falseThreeB"> < lb > <br>
+		<div class="answerThree">Выберите правильный ответ</div>
+	</form>
+</td>
+<td>
+<!--Four--><form id="testFour">
+		<p class="classP">Как открыть ссылку в новой вкладке?</p>
+		<input type="radio" name="gender" class="falseFourA"> < a href="url" new ><br>
+		<input type="radio" name="gender" class="trueFour"> < a href="url" target="_blank" > <br>
+		<input type="radio" name="gender" class="falseFourB"> < a href="url" target="new" > <br>
+		<div class="answerFour">Выберите правильный ответ</div>
+	</form>
+</td>
+</tr>
+<tr>
+<td>
+<!--Five--><form id="testFive">
+		<p class="classP">Выберите теги для работы с таблицами.</p>
+		<input type="radio" name="gender" class="falseFiveA"> < thead > < body > < tr > <br>
+		<input type="radio" name="gender" class="falseFiveB"> < table > < head > < tfoot > <br>
+		<input type="radio" name="gender" class="trueFive"> < table >< tr >< td > <br>
+		<div class="answerFive">Выберите правильный ответ</div>
+	</form>
+</td>
+<td>
+<!--Six--><form id="testSix">
+		<p class="classP">Тег для создания нумерованного списка?</p>
+		<input type="radio" name="gender" class="trueSix"> < ol > <br>
+		<input type="radio" name="gender" class="falseSixA"> < list > <br>
+		<input type="radio" name="gender" class="falseSixB"> < dl > <br>
+		<div class="answerSix">Выберите правильный ответ</div>
+	</form>
+</td>
+<td>
+<!--Seven--><form id="testSeven">
+		<p class="classP">Выберите верный способ создания чекбокса</p>
+		<input type="radio" name="gender" class="trueSeven"> < input type="checkbox" > <br>
+		<input type="radio" name="gender" class="falseSevenA"> < checkbox > <br>
+		<input type="radio" name="gender" class="falseSevenB"> < input type="check" > <br>
+		<div class="answerSeven">Выберите правильный ответ</div>
+	</form>
+</td>
+<td>
+<!--Eight--><form id="testEight">
+		<p class="classP">Актуальная версия HTML</p>
+		<input type="radio" name="gender" class="falseEightA"> HTML 4.0 <br>
+		<input type="radio" name="gender" class="trueEight"> HTML 5.0<br>
+		<input type="radio" name="gender" class="falseEightB"> HTML 6.0<br>
+		<div class="answerEight">Выберите правильный ответ</div>
+	</form>
+</td>
+</tr>
+<tr>
+<td>
+<!--Nine--><form id="testNine">
+		<p class="classP">HTML тег для самого крупного заголовка?</p>
+		<input type="radio" name="gender" class="falseNineA"> < heading > <br>
+		<input type="radio" name="gender" class="trueNine">  < h1 > <br>
+		<input type="radio" name="gender" class="falseNineB">  < head > <br>
+		<div class="answerNine">Выберите правильный ответ</div>
+	</form>
+</td>
+<td>
+<!--Ten--><form id="testTen">
+		<p class="classP">CSS это?</p>
+		<input type="radio" name="gender" class="falseTenA"> Библиотека HTML <br>
+		<input type="radio" name="gender" class="falseTenB"> Язык программирования<br>
+		<input type="radio" name="gender" class="trueTen"> Каскадная таблица стилей <br>
+		<div class="answerTen">Выберите правильный ответ</div>
+	</form>
+</td>
+<td>
+<!--Eleven--><form id="testEleven">
+		<p class="classP">Где в HTML можно подключать CSS?</p>
+		<input type="radio" name="gender" class="falseElevenA"> В конце документа HTML <br>
+		<input type="radio" name="gender" class="falseElevenB"> В тегу < body > <body><br>
+		<input type="radio" name="gender" class="trueEleven"> В тегу < head > <br>
+		<div class="answerEleven">Выберите правильный ответ</div>
+	</form>
+</td>
+<td>
+<!--Tvelve --><form id="testTvelve">
+		<p class="classP">Как правильно писать комментарии в CSS?</p>
+		<input type="radio" name="gender" class="trueTvelve"> /* это комментарий */ <br>
+		<input type="radio" name="gender" class="falseTvelveA"> // это комментарий // <br>
+		<input type="radio" name="gender" class="falseTvelveB"> < !--это комментарий-- > <br>
+		<div class="answerTvelve">Выберите правильный ответ</div>
+	</form>
+</td>
+</tr>
+<tr><td colspan="4">
+    	<center><button id="exitButTestText" class="exitButtons">Закрыть тести 1-12</button></center>
+    </td>
+</tr>
+</table>
+
+<!--Thirteen--><table id="tableThirteen" class="tableThirteen">
+<tr>
+    <th colspan="4"><p class="classP">Выберите фотографию на которой изображено ID селектор в CSS.</p></th>
+</tr>
+<tr>
+	<form id="testThirteen">
+		<td>
+			<img id="img_1" src="images/1.jpg" width="200" height="125" alt="Фото 1" />
+			<br><input type="radio" name="gender" id='photoOneFalse'>1
+		</td>
+		<td>
+			<img id="img_2" src="images/2.jpg" width="200" height="125" alt="Фото 2" />
+			<br><input type="radio" name="gender" id='photoTwoFalse'>2
+		</td>
+		<td>
+			<img id="img_3" src="images/3.jpg" width="200" height="125" alt="Фото 3" />
+			<br><input type="radio" name="gender" id='photoThreeFalse'>3
+		</td>
+		<td>
+			<img id="img_4" src="images/4.jpg" width="200" height="125" alt="Фото 4" />
+			<br><input type="radio" name="gender" id='photoFourTrue'>4
+		</td>
+	</form>
+</tr>
+<tr>
+    <td colspan="4"><div class="answerThirteen">Выберите правильный ответ</div></td>
+</tr>
+<tr><td colspan="4">
+    	<center><button id="exitButThirteen" class="exitButtons">Закрыть тест 13</button></center>
+    </td>
+</tr>
+</table>
+
+<!--Fourteen--><table id="tableFourteen" class="tableFourteen">
+<tr>
+    <th colspan="3"><p class="classP">Какой css код отвечает за то, чтобы таблица, которая изображена на фото, имела такой результат.</p></th>
+</tr>
+<tr>
+	 <th colspan="3"><img id="img_8" src="images/8.jpg" width="883" height="108" alt="Фото 8" /></th>
+</tr>
+<tr>
+	<form id="testFourteen">
+		<td>
+			<img id="img_5" src="images/5.jpg" width="250" height="175" alt="Фото 5" />
+			<br><input type="radio" name="gender" id='photoFiveFalse'>1
+		</td>
+		<td>
+			<img id="img_6" src="images/6.jpg" width="250" height="175" alt="Фото 6" />
+			<br><input type="radio" name="gender" id='photoSixTrue'>2
+		</td>
+		<td>
+			<img id="img_7" src="images/7.jpg" width="250" height="175" alt="Фото 7" />
+			<br><input type="radio" name="gender" id='photoSevenFalse'>3
+		</td>
+	</form>
+</tr>
+<tr>
+    <td colspan="3"><div class="answerFourteen">Выберите правильный ответ</div></td>
+</tr>
+<tr><td colspan="4">
+    	<center><button id="exitButFourteen" class="exitButtons">Закрыть тест 14</button></center>
+    </td>
+</tr>
+</table>
+
+
+<!--Fifteen--><table id="tableFifteen" class="tableFifteen">
+<tr>
+    <th colspan="3"><p class="classP">Telephone Telephone Telephone Telephone Telephone Telephone Telephone Telephone</p></th>
+</tr>
+<tr>
+	 <th colspan="3"><img id="img_12" src="images/12.jpg" width="650" height="110" alt="Фото 12" /></th>
+</tr>
+<tr>
+	<form id="testFifteen">
+		<td>
+			<img id="img_9" src="images/9.jpg" width="215" height="145" alt="Фото 9" />
+			<br><input type="radio" name="gender" id='photoNineTrue'>1
+		</td>
+		<td>
+			<img id="img_10" src="images/10.jpg" width="215" height="145" alt="Фото 10" />
+			<br><input type="radio" name="gender" id='photoTenFalse'>2
+		</td>
+		<td>
+			<img id="img_11" src="images/11.jpg" width="215" height="145" alt="Фото 11" />
+			<br><input type="radio" name="gender" id='photoElevenFalse'>3
+		</td>
+	</form>
+</tr>
+<tr>
+    <td colspan="3"><div class="answerFifteen">Выберите правильный ответ</div></td>
+</tr>
+<tr><td colspan="4">
+    	<center><button id="exitButFifteen" class="exitButtons">Закрыть тест 15</button></center>
+    </td>
+</tr>
+</table>
+</div>
+
+<center>
+<pre id="windowResult" class="classWindowResult">
+Поздравляю "<span id="name" class="className"></span>"
+"Тест по элементарным основам HTML и CSS" сдан.
+Во время прохождения у вас :
+    Загальное количество ответов  <span class="NumberClick"></span>
+    Правильное количество ответов <span class="NumberTrue"></span>
+Спасибо за то, что вы посетили этот сайт =)
+<button id="exitButResult">Закрыть результат</button>
+</pre>
+</center>
+
+<footer id="iDfooter" class="classFooter" style="text-align: center;">
+<strong>
+"<span id="name" class="className"></span>". Загальное количество ответов <span class="NumberClick">0</span>. Правильное количество ответов<span class="NumberTrue">0</span>.
+</strong>
+</footer>
+</body>
+</html>

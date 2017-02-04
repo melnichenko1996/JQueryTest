@@ -1,0 +1,86 @@
+.but_white, .but_black, .classH, .welcome, .but_whiteMini, .but_blackMini, .mainPage{
+	display:none;
+}
+.classBody{
+	background: #edeef0; 
+}
+.but_white{
+	background: #edeef0; 
+    color: #2e5d86; 
+    text-shadow: 0 0 1em #2e5d86;
+    font-size: 50pt; 
+}
+.but_black{
+	background: #000; 
+    color: #000; 
+    text-shadow: 1px 1px 1px #fff, 0 0 1em #fff;
+    font-size: 50pt; 
+}
+.welcome{
+	font-size: 500%;
+	color: #2e5d86; 
+	text-shadow: 2px 2px 2px black, 0 0 2em black;
+	text-align: center;
+	display:none;
+}
+.but_whiteMini{
+	width: 20%;
+	font-size: 100%;
+	background: #edeef0; 
+    color: #2e5d86; 
+}
+.but_blackMini{
+	width: 20%;
+	font-size: 100%;
+	background: #000; 
+    color: white; 
+}
+
+header {
+	text-align: center;
+}
+button {
+	width: 15%;
+}
+
+td {
+	padding: 1%;
+	width: 25%;
+}
+/*скриваем table Text*/
+.tableClassText {
+	width: 100%;
+	display:none;
+}
+
+/*скриваем table Photo*/
+.tableThirteen, .tableFourteen, .tableFifteen{
+	display:none;
+}
+
+/*скриваем button*/
+.classResult {
+	display:none;
+}
+.TestThirteen, .TestFourteen, .TestFifteen, .exitButtons {
+	display:none;
+}
+
+#iDfooter {
+	display:none;
+	position: fixed;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+/*border: 2px dashed red;*/
+.classWindowResult {
+	display:none;
+	font-size: 130%;
+	width: 40%;
+}
+#exitButResult {
+	width: 200px;
+}
