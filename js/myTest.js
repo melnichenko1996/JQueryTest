@@ -10,7 +10,7 @@ var classTruee = '.' + truee;
 var classAnswerr = '.' + answerr;
 var namberTest = '#' + test;
 //falsee 1
-$(classFalseA).click(function(){
+$('#id').click(function(){
 	$(classAnswerr).text('Вы ошиблись').css({
 		'color': '#CD0000',
 	});
@@ -147,4 +147,26 @@ var b = 0;//всего ответов
 	$('.NumberClick').text(b);
 	});
 
+
+//Отдельная дороботаная функция, которая отвечает за появления таблиц, при правильных ответах
+function fadeInTable(answer, table){
+
+	var classAnswer = '.' + answer;
+	var idTable = '#' + table;
+
+	$(classAnswer).click(function(){
+		setTimeout(function(){
+			$(idTable).fadeIn(1000);
+			$(idTable).css({
+				'width' : '75%',
+				'text-align' : 'center',
+				'margin' : 'auto',
+			});
+			}, 2000);
+	});
+}
+
+fadeInTable('trueTvelve','tableThirteen');
+fadeInTable('photoFourTrue','tableFourteen');
+fadeInTable('photoSixTrue','tableFifteen');
 });

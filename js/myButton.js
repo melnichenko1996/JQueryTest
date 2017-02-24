@@ -20,11 +20,6 @@ function button(but,table){
 	var idTable = '#' + table;
 
 	$(idBut).click(function(){
-	$(idTable).css({
-		'width' : '75%',
-		'text-align' : 'center',
-		'margin' : 'auto',
-	});
 	$(idTable).fadeIn(2000);
 });
 };
