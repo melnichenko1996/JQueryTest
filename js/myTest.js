@@ -10,7 +10,7 @@ var classTruee = '.' + truee;
 var classAnswerr = '.' + answerr;
 var namberTest = '#' + test;
 //falsee 1
-$('#id').click(function(){
+$(classFalseA).click(function(){
 	$(classAnswerr).text('Вы ошиблись').css({
 		'color': '#CD0000',
 	});
